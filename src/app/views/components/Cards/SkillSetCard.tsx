@@ -1,8 +1,8 @@
 "use client";
 
 interface ProjectCardProps {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   letter?: string;
 }
 

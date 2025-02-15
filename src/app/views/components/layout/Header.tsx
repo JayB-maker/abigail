@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import routeConfig from "../../config/routeConfig";
+// import Resume from "../../assets/Abigail_Sanni_product_management_cv.pdf"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,7 +53,7 @@ const Header = () => {
           >
             Projects
           </Link>
-          <Link
+          {/* <Link
             href={routeConfig.articles}
             className="text-gray-400 hover:text-gray-200"
           >
@@ -63,11 +64,12 @@ const Header = () => {
             className="text-gray-400 hover:text-gray-200"
           >
             Contact
-          </Link>
+          </Link> */}
         </nav>
         <div className="hidden md:flex space-x-4">
           <a
-            href="#"
+            href="/Abigail_Sanni_product_management_cv.pdf"
+            download
             className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-4 py-2 rounded-md shadow hover:from-orange-600 hover:to-yellow-500 transition duration-300 ease-in-out transform hover:scale-105"
           >
             Download Resume
@@ -95,7 +97,7 @@ const Header = () => {
             >
               Projects
             </a>
-            <a
+            {/* <a
               href={routeConfig.articles}
               className="text-gray-400 hover:text-gray-200"
             >
@@ -106,14 +108,16 @@ const Header = () => {
               className="text-gray-400 hover:text-gray-200"
             >
               Contact
-            </a>
+            </a> */}
             <div className="!w-full p-4 absolute left-0 bottom-24 md:flex">
-              <button
-                // href="#"
-                className="!w-full bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-4 py-2 rounded-md shadow hover:from-orange-600 hover:to-yellow-500 transition duration-300 ease-in-out transform hover:scale-105"
-              >
-                Download Resume
-              </button>
+              <a href="/Abigail_Sanni_product_management_cv.pdf" download>
+                <button
+                  // href="#"
+                  className="!w-full bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-4 py-2 rounded-md shadow hover:from-orange-600 hover:to-yellow-500 transition duration-300 ease-in-out transform hover:scale-105"
+                >
+                  Download Resume
+                </button>
+              </a>
             </div>
           </nav>
         </div>

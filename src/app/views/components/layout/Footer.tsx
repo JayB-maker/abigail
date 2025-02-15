@@ -5,17 +5,17 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-white py-5  ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 lg:px-10 max-w-[1200px] ">
-      <div className="text-xl font-bold">
+        <div className="text-xl font-bold">
           <a href={routeConfig?.home}>Abigail</a>
         </div>
         <div className="flex flex-col md:flex-row items-center">
           <div className="mb-4 md:mb-0 md:mr-6 text-center flex items-center flex-col lg:flex-row lg:gap-10">
-            <p>+234 (0) 905-576-0336</p>
-            <p>sanniabigial@gmail.com</p>
+            <a href="tel:+2349055760336">+234 (0) 905-576-0336</a>
+            <a href="mailto:sanniabigial@gmail.com">sanniabigial@gmail.com</a>
           </div>
           <div className="flex space-x-4">
             <a
-              href="https://medium.com"
+              href="https://medium.com/@abigailsanni10"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://twitter.com/https://x.com/AbiBi3735?t=qpYbJHaSIBQ8NfOrWJULpw&s=09"
+              href="https://x.com/abigail_sanni?s=11"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/abigailsanni"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://instagram.com/https://www.instagram.com/thewealthypreneur_?igsh=MWhjZnRucWk3NDhpcA=="
+              href="https://www.instagram.com/abigail_sanni_?igsh=dHlvOHQ4OWZnYmkx"
               target="_blank"
               rel="noopener noreferrer"
             >
