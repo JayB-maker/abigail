@@ -1,7 +1,7 @@
 import React from "react";
 import PicOne from "../views/assets/pic-one.jpg";
-import PicTwo from "../views/assets/pic-two.jpg";
-import PicThree from "../views/assets/pic-three.jpg";
+import PicTwo from "../views/assets/pic-two.png";
+import PicThree from "../views/assets/pic-three.png";
 import Image from "next/image";
 import SkillSetCard from "../views/components/Cards/SkillSetCard";
 
