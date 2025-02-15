@@ -1,5 +1,5 @@
 import React from "react";
-import PicOne from "../views/assets/pic-one.jpg";
+import PicOne from "../views/assets/pic-one.png";
 import PicTwo from "../views/assets/pic-two.png";
 import PicThree from "../views/assets/pic-three.png";
 import Image from "next/image";
