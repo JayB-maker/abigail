@@ -1,7 +1,11 @@
 "use client";
 
 import React, { useEffect, useState, useRef } from "react";
+import Williams from "@/app/views/assets/williams-llube.png";
+import Blessing from "@/app/views/assets/blessing-okomori.png";
+import Anthony from "@/app/views/assets/anthony-ashley.png";
 import "tailwindcss/tailwind.css";
+import Image from "next/image";
 
 const testimonials = [
   { id: 1, text: "Testimonial 1", author: "Author 1" },
@@ -63,37 +67,73 @@ const TestimonialSection: React.FC = () => {
             style={{ animation: "scroll-linear 20s linear infinite" }}
           >
             {/* <!-- Testimonial Cards --> */}
-            <div className="flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-80">
+            <div className="flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-[450px]">
               <p className=" italic mb-4">
-                "This service has been an absolute game-changer! Highly
-                recommend."
+                "Working with Abigail Sanni has been an absolute pleasure. As a
+                Product Manager Abigail consistently demonstrated exceptional
+                problem-solving skills, innovation, and a keen understanding of
+                product management Frameworks. <br />
+                <br />
+                Her ability to collaborate with cross-functional teams and
+                deliver results under tight deadlines is truly impressive. She
+                brings a unique blend of passion, professionalism, and
+                creativity to every project she works on. I have no doubt she
+                will continue to excel in her career and make a significant
+                impact in product management. "
               </p>
-              <h4 className=" font-bold">Jane Doe</h4>
-              <p className="text-sm ">Product Manager</p>
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-full overflow-hidden">
+                  <Image src={Williams} alt="test" />
+                </div>
+                <div className="flex flex-col justify-end ">
+                  <h4 className=" font-bold">Williams Ilube</h4>
+                  <p className="text-sm ">Product manager</p>
+                </div>
+              </div>
             </div>
 
-            <div className="flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-80">
+            <div className="flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-[450px]">
               <p className=" italic mb-4">
-                "Exceptional quality and support. Couldn't ask for more!"
+                "I had the privilege of working with Abigail, and her
+                dedication, patience, and curiosity as a product manager truly
+                stand out. She has a natural talent for breaking down complex
+                challenges into actionable solutions, all while fostering
+                collaboration and ensuring team alignment. <br />
+                <br /> Abigail’s eagerness to learn and grow is inspiring. She
+                consistently seeks opportunities to improve her skills and
+                adopts a thoughtful, forward-thinking approach to every project.
+                Her empathetic communication style and attention to detail make
+                her a valued teammate and leader. <br />
+                <br /> I wholeheartedly recommend Abigail for any
+                opportunity—her passion and commitment are unmatched! "
               </p>
-              <h4 className=" font-bold">John Smith</h4>
-              <p className="text-sm ">Software Engineer</p>
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-full overflow-hidden">
+                  <Image src={Blessing} alt="test" />
+                </div>
+                <div className="flex flex-col justify-end ">
+                  <h4 className=" font-bold">Blessing Okomor</h4>
+                  <p className="text-sm ">Product manager</p>
+                </div>
+              </div>
             </div>
 
-            <div className="flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-80">
+            <div className="relative flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-[450px]">
               <p className=" italic mb-4">
-                "I love how intuitive and easy-to-use everything is."
+                "Abigail is quite dedicated and efficient, her passion for what
+                she does makes the difference, worked with her on different
+                projects and the energy was so so excellent I would recommend
+                Abigail 100 percent "
               </p>
-              <h4 className=" font-bold">Emily Clark</h4>
-              <p className="text-sm ">Designer</p>
-            </div>
-
-            <div className="flex-none bg-[#363636] text-white  rounded-lg shadow-lg p-6 w-80">
-              <p className=" italic mb-4">
-                "The results I got were amazing! Highly satisfied."
-              </p>
-              <h4 className=" font-bold">David Lee</h4>
-              <p className="text-sm ">Entrepreneur</p>
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-full overflow-hidden">
+                  <Image src={Anthony} alt="test" />
+                </div>
+                <div className="static flex flex-col justify-end items-baseline bottom-0 ">
+                  <h4 className=" font-bold">Anthony Ashley </h4>
+                  <p className="text-sm ">Product manager</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
