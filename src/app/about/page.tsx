@@ -212,44 +212,42 @@ const page = () => {
         </div> */}
             </div>
 
-            <div className="group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg ">
+            {/* <div className="group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg ">
               <Image
                 src={PicTwo}
                 alt="Gallery Image"
                 className="w-full h-full object-cover"
               />
-              {/* <div
+              <div
           className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg -hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg"
         >
           <p className="text-white font-semibold">View Image</p>
-        </div> */}
-            </div>
+        </div>
+            </div> */}
 
-            <div className="group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg ">
+            {/* <div className="group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg ">
               <Image
                 src={PicTwo}
                 alt="Gallery Image"
                 className="w-full h-full object-cover"
               />
-              {/* <div
+              <div
           className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg -hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg"
         >
           <p className="text-white font-semibold">View Image</p>
-        </div> */}
-            </div>
+        </div>
+            </div> */}
 
-            <div className="group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg ">
+            {/* <div className="group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg ">
               <Image
                 src={PicTwo}
                 alt="Gallery Image"
                 className="w-full h-full object-cover"
               />
-              {/* <div
-          className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg -hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg"
-        >
-          <p className="text-white font-semibold">View Image</p>
-        </div> */}
-            </div>
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group bg-[#363636] rounded-lg h-100 overflow-hidden shadow-lg -hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg">
+                <p className="text-white font-semibold">View Image</p>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -5,8 +5,9 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-white py-5  ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 lg:px-10 max-w-[1200px] ">
-        <div className="text-xl font-bold">
+        <div className="text-xl font-bold mb-10 md:mb-0 flex flex-col items-center md:items-start">
           <a href={routeConfig?.home}>Abigail</a>
+          <p className="text-base text-gray-100 text-center md:text-left max-w-[250px] ">Build for the user, align with the vision, deliver with impact</p>
         </div>
         <div className="flex flex-col md:flex-row items-center">
           <div className="mb-4 md:mb-0 md:mr-6 text-center flex items-center flex-col lg:flex-row lg:gap-10">
